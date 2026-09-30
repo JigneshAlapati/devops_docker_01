@@ -1,0 +1,5 @@
+FROM HHTPD
+EXPOSE 80
+MAINTAINER Jignesh
+LABELS this the html image  for html page of movie booking
+COPY . /usr/local/apache2/htdocs/
